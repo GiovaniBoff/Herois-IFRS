@@ -108,7 +108,7 @@ function selectFour(){
     }else if(selectedHero1){
         hero1.style.filter = "grayscale(100%)";
         hero1.style.transition = "1s";
-        hero1.backgroundColor = "white";
+        hero1.style.backgroundColor = "white";
         selectedHero1= false;
     }    
 }   
